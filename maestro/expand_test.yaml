@@ -1,0 +1,15 @@
+appId: "com.anonymous.e2etestexample"
+---
+- launchApp
+- tapOn: "Explore.*"
+- tapOn: ".*File-based routing" # to open
+- assertVisible: "This app has two screens.*"
+- tapOn: ".*File-based routing" # to close
+- tapOn: ".*Images" # to open
+- assertVisible: "Learn more"
+- tapOn: ".*Images" # to close
+# - scroll
+- tapOn: ".*Animations"
+- tapOn: "Home.*"
+# - tapOn: { id: "inputId" }
+# - inputText: "I'm entering text!"
