@@ -128,8 +128,6 @@ appId: "com.anonymous.e2etestexample"
 
    > Refer to the [Expo documentation](https://docs.expo.dev/build-reference/e2e-tests/#create-a-custom-build-workflow-for-running-maestro-e2e-tests).
 
----
-
 ## Updating `eas.json`
 
 Add a new build profile for the custom workflow:
